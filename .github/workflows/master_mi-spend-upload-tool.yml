@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'MI-Spend-Upload-Tool'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FA4A8C9521BA4B82A4D3856BBA7FD957 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9A8A34D55C15465AB8201F5388043414 }}
