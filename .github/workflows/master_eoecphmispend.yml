@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'eoecphmispend'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_917A5C329E844A3D930899C24CAF81DD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_37FD62566E0C4A839B47AFDDB221D8EB }}
