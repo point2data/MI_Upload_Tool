@@ -7,8 +7,11 @@ app = Flask(__name__)
 app.secret_key = 'mysecretkey'
 
 # Enter your connection string and container name here
-connection_string = 'DefaultEndpointsProtocol=https;AccountName=myalliancemispend;AccountKey=aHI3NzcCY8Q4GZqrknEynUDypWOtMLNX4S9zhJH02Aya4EtAW1ffj9WjtPt3kXWoHcRs1jTmiest+AStMSp70Q==;EndpointSuffix=core.windows.net'
-container_name = 'mi-spend'
+#connection_string = 'DefaultEndpointsProtocol=https;AccountName=myalliancemispend;AccountKey=aHI3NzcCY8Q4GZqrknEynUDypWOtMLNX4S9zhJH02Aya4EtAW1ffj9WjtPt3kXWoHcRs1jTmiest+AStMSp70Q==;EndpointSuffix=core.windows.net'
+#container_name = 'mi-spend'
+
+connection_string = 'DefaultEndpointsProtocol=https;AccountName=pipmispend;AccountKey=jQ3T5PZAr77MhoVc7W/yPws+mBBZEknk6E5ozrb00R+Cp7aaBx1nIAcB5yzDQsMIMTPdvSCJckW9+ASt2yf2wg==;EndpointSuffix=core.windows.net'
+container_name = 'pip-mi-spend'
 
 @app.route('/', methods=['GET', 'POST'])
 def upload():
